@@ -1,0 +1,40 @@
+>git pull
+
+tehdään muutokset
+
+>git add .
+
+>git commit -m "komentti"
+
+>git pull
+
+>git push 
+ 
+tai 
+
+>git push origin branchinnimi
+
+esim. origin master
+
+Jos haluat luoda branchin
+
+>git branch brachnimi
+
+>git checkout branchinimi
+
+Mergeminen:
+ 
+>git add .
+
+>git commit -m "komentti"
+
+>git push origin branchinnimi
+
+>git checkout master 
+
+>git merge aikaisemman mergettävän branchin nimi
+
+>git push origin master
+
+
+
